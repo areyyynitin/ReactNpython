@@ -1,6 +1,6 @@
-from app import app,db
+from backend.app import app,db
 from flask import request, jsonify
-from models import Friend
+from backend.models import Friend
 
 
 # Get all friends
